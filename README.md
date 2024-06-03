@@ -15,9 +15,7 @@ Second step, redirect to cloned repo and install dependencies:
 ```bash
 cd next-tw-starter
 
-npm install
-# or
-yarn install
+npm install react@18.2.0 react-dom@18.2.0 --save
 ```
 
 Third step, open ".env.example" file, add your Thirdweb [ClientId](https://thirdweb.com/dashboard/settings/api-keys), and remove "example" tag from file name, so it will be like: ".env".
@@ -26,8 +24,6 @@ Last step, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 # or
 pnpm dev
 ```
